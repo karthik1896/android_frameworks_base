@@ -117,7 +117,7 @@ public class QSFooterImpl extends FrameLayout implements QSFooter, TunerService.
 
     public QSFooterImpl(Context context, AttributeSet attrs) {
         super(context, attrs);
-        mColorForeground = Utils.getColorAttr(context, android.R.attr.colorForeground);
+        mColorForeground = Utils.getColorAttrDefaultColor(context, android.R.attr.colorForeground);
     }
 
     @Override
@@ -467,7 +467,7 @@ public class QSFooterImpl extends FrameLayout implements QSFooter, TunerService.
                 !(picture instanceof UserIconDrawable)) {
             picture = picture.getConstantState().newDrawable(mContext.getResources()).mutate();
             picture.setColorFilter(
-                    Utils.getColorAttr(mContext, android.R.attr.colorForeground),
+                    Utils.getColorAttrDefaultColor(mContext, android.R.attr.colorForeground),
                     Mode.SRC_IN);
         }
         mMultiUserAvatar.setImageDrawable(picture);

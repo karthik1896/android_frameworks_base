@@ -415,18 +415,18 @@ public abstract class QSTileImpl<TState extends State> implements QSTile, TunerS
 
         boolean enableQsTileTinting = context.getResources().getBoolean(R.bool.config_enable_qs_tile_tinting);
 
-        switch (state) {
+       switch (state) {
             case Tile.STATE_UNAVAILABLE:
                 if (!enableQsTileTinting) {
                     return Utils.getDisabled(context,
-                        Utils.getColorAttr(context, android.R.attr.textColorSecondary));
+                        Utils.getColorAttrDefaultColor(context, android.R.attr.textColorSecondary));
                 } else {
                     return Utils.getDisabled(context,
                         context.getColor(R.color.qs_tiles_unavailable_tint));
                 }
             case Tile.STATE_INACTIVE:
                 if (!enableQsTileTinting) {
-                    return Utils.getColorAttr(context, android.R.attr.textColorSecondary);
+                    return Utils.getColorAttrDefaultColor(context, android.R.attr.textColorSecondary);
                 } else {
                     return context.getColor(R.color.qs_tiles_inactive_tint);
                 }
