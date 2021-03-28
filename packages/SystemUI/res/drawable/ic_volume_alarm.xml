@@ -1,27 +1,5 @@
-<!--
-     Copyright (C) 2017 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:height="24.0dp"
-    android:viewportHeight="24.0"
-    android:viewportWidth="24.0"
-    android:width="24.0dp"
-    android:tint="?android:attr/colorControlNormal">
-
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M2.7,6.5c-0.4,-0.4 -0.3,-1 0.1,-1.4l3,-2.6c0.4,-0.4 1,-0.3 1.4,0.1C7.6,3 7.5,3.7 7.1,4l-3,2.6C3.6,7 3,6.9 2.7,6.5zM21.3,5.1l-3.1,-2.6c-0.4,-0.4 -0.99,-0.31 -1.4,0.1c-0.4,0.4 -0.3,1 0.1,1.4L20,6.6c0.41,0.37 1,0.3 1.4,-0.1C21.73,6.12 21.7,5.4 21.3,5.1zM21,13c0,5 -4,9 -9,9s-9,-4 -9,-9s4,-9 9,-9S21,8 21,13zM19.1,13c0,-3.9 -3.2,-7.1 -7.1,-7.1S4.9,9.1 4.9,13s3.2,7.1 7.1,7.1S19.1,16.9 19.1,13zM11.75,8C11.34,8 11,8.34 11,8.75V14l4.14,2.48c0.34,0.21 0.77,0.1 0.98,-0.24s0.09,-0.79 -0.25,-0.99l-3.37,-2v-4.5C12.5,8.34 12.16,8 11.75,8z"/>
-
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff1a1a1c" android:pathData="M12,4.25A8.75,8.75,0,1,0,20.75,13,8.76,8.76,0,0,0,12,4.25Zm0,16A7.25,7.25,0,1,1,19.25,13,7.258,7.258,0,0,1,12,20.25ZM8.836,2.467l-6.75,5.25L1.164,6.533l6.75-5.25Zm14,4.066-0.922,1.184-6.75-5.25 0.922 -1.184ZM12.75,12.625l2.7,2.025-0.9,1.2-2.7-2.025a1.508,1.508,0,0,1-0.6-1.2V9h1.5Z" />
 </vector>
