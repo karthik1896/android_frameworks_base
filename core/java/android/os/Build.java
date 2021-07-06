@@ -1061,18 +1061,7 @@ public class Build {
         // Don't care if hiddent by dev. False negative.
         if (HIDE_WARNING) return true;
 
-        if (IS_TREBLE_ENABLED && !SKIP_TREBLE_CHECK) {
-            // If we can run this code, the device should already pass AVB.
-            // So, we don't need to check AVB here.
-            int result = VintfObject.verifyWithoutAvb();
-
-            if (result != 0) {
-                Slog.e(TAG, "Vendor interface is incompatible, error="
-                        + String.valueOf(result));
-            }
-
-            return result == 0;
-        }
+        if (IS_TREBLE_ENABLED) return true;
 
         final String system = SystemProperties.get("ro.build.fingerprint");
         final String vendor = SystemProperties.get("ro.vendor.build.fingerprint");
