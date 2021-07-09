@@ -152,14 +152,13 @@ public class KeyguardSliceView extends LinearLayout implements View.OnClickListe
         setLayoutTransition(transition);
     }
 
-    @Override
+@Override
     protected void onFinishInflate() {
         super.onFinishInflate();
         mTitle = findViewById(R.id.title);
         mRow = findViewById(R.id.row);
         mTextColor = Utils.getColorAttrDefaultColor(mContext, R.attr.wallpaperTextColor);
-        updateSettings();
-    }
+}
 
     @Override
     protected void onAttachedToWindow() {

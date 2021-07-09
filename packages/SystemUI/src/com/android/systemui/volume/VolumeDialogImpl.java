@@ -285,7 +285,7 @@ public class VolumeDialogImpl implements VolumeDialog, TunerService.Tunable {
         mActiveTint = ColorStateList.valueOf(Utils.getColorAccent(mContext));
         mActiveAlpha = Color.alpha(mActiveTint.getDefaultColor());
         mInactiveTint = ColorStateList.valueOf(
-                Utils.getColorAttr(mContext, android.R.attr.colorForeground));
+                Utils.getColorAttrDefaultColor(mContext, android.R.attr.colorForeground));
         mInactiveAlpha = getAlphaAttr(android.R.attr.secondaryContentAlpha);
 
         mDialogRowsView = mDialog.findViewById(R.id.volume_dialog_rows);

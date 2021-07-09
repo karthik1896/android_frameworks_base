@@ -6573,7 +6573,7 @@ public final class Settings {
          * <p>If this is true, then any attempts to begin setup again should result in factory reset
          *
          * @hide
-         */
+         *
         public static final String MANAGED_PROVISIONING_DPC_DOWNLOADED =
                 "managed_provisioning_dpc_downloaded";
 

@@ -141,7 +141,7 @@ public class ThemedBatteryDrawable extends BatteryMeterDrawableBase {
         textPaint.setTextAlign(Paint.Align.CENTER);
 
         errorPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        errorPaint.setColor(Utils.getDefaultColor(mContext, R.color.batterymeter_plus_color));
+        mPlusPaint.setColor(Utils.getColorStateListDefaultColor(mContext,R.color.batterymeter_plus_color));
         errorPaint.setAlpha(255);
         errorPaint.setAlpha(255);
         errorPaint.setDither(true);
