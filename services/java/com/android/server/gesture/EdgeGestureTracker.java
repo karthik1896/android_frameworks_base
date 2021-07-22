@@ -23,6 +23,7 @@ import android.view.MotionEvent;
 
 import com.android.internal.util.gesture.EdgeGesturePosition;
 import com.android.internal.util.gesture.EdgeServiceConstants;
+import com.android.internal.util.gesture.EdgeServiceConstants;
 
 /**
  * A simple {@link MotionEvent} tracker class. The main aim of this tracker is to
